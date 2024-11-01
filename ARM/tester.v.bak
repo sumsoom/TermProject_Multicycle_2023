@@ -1,0 +1,21 @@
+module tester(
+	input clk,
+	input reset,
+	output[31:0] pc,
+	input[31:0] instr,
+	input nIRQ,
+	input be,
+	output[31:0] memaddrM,
+	output memwriteM,
+	output memreadM,
+	output[31:0] writedataM,
+	input[31:0] readdata);
+	
+	
+	assign pc=50;
+	assign memaddrM=0;
+	assign memwriteM=0;
+	assign memreadM=0;
+	assign writedataM=0;
+	
+endmodule
