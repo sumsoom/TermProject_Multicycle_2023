@@ -1,0 +1,36 @@
+# Ignore backup files
+*.bak
+
+# Ignore waveform and simulation files
+*.vwf
+
+# Ignore Quartus synthesis and compilation files (if using Intel/Altera tools)
+db/
+incremental_db/
+simulation/
+synthesis/
+output_files/
+*.rpt
+*.jdi
+*.sld
+*.sof
+*.pof
+*.hex
+*.csv
+*.html
+*.htm
+*.smsg
+*.summary
+*.map
+*.done
+*.pin
+*.qws
+*.qsf
+*.qpf
+*.cdf
+*.sdc
+*.ttf
+
+# Ignore any other temporary files and cache
+*.temp
+*.tmp
